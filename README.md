@@ -19,4 +19,6 @@ This repository contains all scripts necessary to create tonotopic maps of the p
 * Optional: Run PlotModel.m to see/check the created models (can also be overlayed on actual voxel timeseries)
 * Run CrossCorrelation_CreateOutputMap.m to apply a linear cross-correlation (of all 11 models and the respective fMRI time course) on a per-voxel basis
 
-Information on creation of surface maps and statistical analyses will follow!
+### Statistical analyses
+
+* All stats were run in R and the corresponding scripts can be found in the src folder. Results can be reproduced directly using the data stored in derivatives (note that preprocessed fMRI and EEG data is missing for privacy reasons, however correlation coefficients (of tones and fMRI timeseries per voxel) can be found under derivatives/maps)
